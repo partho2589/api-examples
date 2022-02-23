@@ -2,8 +2,11 @@
 const loadKanye = () => {
     fetch ('https://api.kanye.rest/')
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => displayKanye(data))
 }
-loadKanya()
+loadKanye
 
-const displayKanye
+const displayKanye = (kanye) => {
+    const quoteElement = document.getElementById('kanyes');
+    quoteElement.innerText = kanye.quote
+}
