@@ -7,6 +7,7 @@ const loadbuddy = () => {
 loadbuddy()
 
 const displayBuddy = data =>{
+    // console.log(data)
     const buddyes = data.results;
     const buddeContaner = document.getElementById('buddys')
     for( const buddy of buddyes){
