@@ -1,6 +1,8 @@
+
 const searchFood = () => {
     const searchFild = document.getElementById('search-field');
     const searchText = searchFild.value
+   
     // console.log(searchText)
     searchFild.value = ' ';
 
