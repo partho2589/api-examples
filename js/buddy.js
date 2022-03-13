@@ -16,3 +16,6 @@ const displayBuddy = data =>{
          buddeContaner.appendChild(p)
     }
 }
+
+
+
